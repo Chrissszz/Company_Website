@@ -745,7 +745,7 @@ body::-webkit-scrollbar-thumb{
 	position: absolute;
 	content: "";
 	width: 4px;
-	background-color: #8AA29E;
+	background-color: #130F49;
 	top: 0px;
 	bottom: 0px;
 }
@@ -1691,7 +1691,7 @@ body::-webkit-scrollbar-thumb{
 
 .elisc_tm_contact{
 	width: 100%;
-	min-height: 100vh;
+	min-height: 50vh;
 	float: left;
 	background-color: #E9F9FF;
 	padding-top: 120px;
@@ -2038,7 +2038,7 @@ body::-webkit-scrollbar-thumb{
 }
 .elisc_tm_modalbox .portfolio_main_title{
 	width: 100%;
-	float: left;
+	text-align: center;
 	margin-bottom: 20px;
 }
 .elisc_tm_modalbox .portfolio_main_title .category a{
@@ -2057,6 +2057,7 @@ body::-webkit-scrollbar-thumb{
 }
 .elisc_tm_modalbox .portfolio_main_title h3{
 	font-size: 25px;
+	text-align: center;
 }
 .elisc_tm_modalbox .main_details{
 	width: 100%;
@@ -2066,10 +2067,11 @@ body::-webkit-scrollbar-thumb{
 	margin-bottom: 60px;
 }
 .elisc_tm_modalbox .main_details .textbox{
-	width: 70%;
-	padding-right: 40px;
+	width: 100%;
+	
 }
 .elisc_tm_modalbox .main_details .textbox p{
+	text-align: center;
 	margin-bottom: 10px;
 	opacity: .8;
 }
@@ -2545,7 +2547,7 @@ body::-webkit-scrollbar-thumb{
 	.elisc_tm_portfolio_title .elisc_tm_title{margin-bottom: 20px;}
 	.elisc_tm_partners ul li{width: 50%;}
 	.elisc_tm_testimonials{padding-left: 40px;padding-right: 40px;}
-	.elisc_tm_modalbox .box_inner{width: 300px;top: 40px;bottom: 40px;}
+	.elisc_tm_modalbox .box_inner{width: 300px;top: 40px;bottom: 40px; height: 450px;}
 	.elisc_tm_modalbox .description_wrap{padding: 30px 25px 25px 25px;}
 	.elisc_tm_modalbox .description_wrap:before{height: 30px;}
 	.elisc_tm_modalbox .description_wrap:after{height: 25px;}
