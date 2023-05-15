@@ -171,6 +171,13 @@ h6 { font-size: 16px; }
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
 }
+.service-item {
+	/* Add desired styling for the service item */
+	/* For example, you can set a fixed width and height */
+	width: 100%;
+	height: 100%;
+ }
+ 
 .loader_line:before{
     content: '';
     position: absolute;
@@ -1231,6 +1238,10 @@ body::-webkit-scrollbar-thumb{
 	left: 0px;
 	right: 0px;
 	z-index: 5;
+}
+.elisc_tm_full_link1{
+	width: 10%;
+	height: 100px;
 }
 
 /*---------------------------------------------------*/
