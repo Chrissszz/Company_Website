@@ -1239,10 +1239,7 @@ body::-webkit-scrollbar-thumb{
 	right: 0px;
 	z-index: 5;
 }
-.elisc_tm_full_link1{
-	width: 10%;
-	height: 100px;
-}
+
 
 /*---------------------------------------------------*/
 /*	07) ELISC PORTFOLIO
@@ -1703,18 +1700,13 @@ body::-webkit-scrollbar-thumb{
 .elisc_tm_contact{
 	width: 100%;
 	min-height: 50vh;
-	float: left;
+	text-align: center;
 	background-color: #E9F9FF;
 	padding-top: 120px;
 }
 .elisc_tm_contact .wrapper{
 	width: 100%;
-	float: left;
 	display: flex;
-}
-.elisc_tm_contact .wrapper .left{
-	width: 50%;
-	padding-right: 50px;
 }
 .elisc_tm_contact .wrapper .text{
 	width: 100%;
